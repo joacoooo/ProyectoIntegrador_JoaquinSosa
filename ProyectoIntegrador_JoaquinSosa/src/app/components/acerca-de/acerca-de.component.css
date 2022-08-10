@@ -1,0 +1,38 @@
+.row {
+    padding: 55px;
+}
+div {
+    background-color: beige;
+    text-align: center;
+}
+
+/*etiqueta nombre*/
+#nombre {
+    font-weight: bold;
+    margin-top: 35%;
+}
+
+/*estilo de la foto de perfil (a partir de los 576 px HAZ ESTO bootstrap:*/
+
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 14%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 2%;
+        top: 675px;
+        
+    }
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 32%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 34%;
+        top: 650px;
+    }
+}
